@@ -5,14 +5,14 @@ __Performance Management__
 A web application that enables the administrator to provide performance evaluation for its employees. The administrator can also assign any employee to provide feedback on the performance evaluation result of another employee.
 
 
-*E.g:* The administrator can assign employee A to see the performance evaluation results of employee B. The employee A can then provide his feedback on the evaluation results of employee B. Employee A can specify if he agrees or disagrees with the evaluation result of employee B. However, the employee A cannot view his/her performance evaluation results published by the administrator.
+__E.g:__ The administrator can assign employee A to see the performance evaluation results of employee B. The employee A can then provide his feedback on the evaluation results of employee B. Employee A can specify if he agrees or disagrees with the evaluation result of employee B. However, the employee A cannot view his/her performance evaluation results published by the administrator.
 
 The web application is designed using Angular (v8) and Spring Boot for the front end and back end respectively.
 
 The user logs into the web application using his/her credentials. Based on their assigned role they are redirected to either the admin's or the employee's page. They also have an option for password recovery.
 
 
-Note
+__Note__
 ```
 The design incorporates H2 In-memory database to avoid the db setup during the project runtime and limited it to run during the dev profile alone
 (spring.profiles.active = dev).
