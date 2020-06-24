@@ -1,3 +1,8 @@
+__Get This Project__
+===================
+
+git clone --recurse-submodules https://github.com/rubinaantony/Performance-Management.git
+
 __Performance Management__
 ===================
 
