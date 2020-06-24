@@ -1,0 +1,6 @@
+[submodule "Angular"]
+	path = Angular
+	url = https://github.com/rubinaantony/Performance-Management-Angular.git
+[submodule "Spring"]
+	path = Spring
+	url = https://github.com/rubinaantony/Performance-Management-Spring.git
