@@ -13,12 +13,12 @@ The user logs into the web application using his/her credentials. Based on their
 
 
 Note
-
+```
 The design incorporates H2 In-memory database to avoid the db setup during the project runtime and limited it to run during the dev profile alone
 (spring.profiles.active = dev).
 
 ServerHostName/h2-console can be used to check the table data at runtime.
-
+```
 
 The code for the Angular and Spring Boot part are separated and is available at
 
