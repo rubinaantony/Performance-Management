@@ -1,4 +1,4 @@
-_Performance Management_
+__Performance Management__
 ===================
 
 
@@ -26,28 +26,28 @@ The code for the Angular and Spring Boot part are separated and is available at
 * [Spring Boot](https://github.com/rubinaantony/Performance-Management-Spring)
 
 
-### _User Capabilities_ ###
+### __User Capabilities__ ###
 This section describes the capabilities for the administrator and employee user.
 
-#### _Capabilities of the administrator_ ####
+#### __Capabilities of the administrator__ ####
 
 * Add/Update/Delete/View employee details
 * Add/Update/View performance evaluation for the employees
 * Assign an employee to provide feedback on the performance evaluation result of another employee
 
 
-#### _Capabilities of the employee user_ ####
+#### __Capabilities of the employee user__ ####
 
 
 * View a list of employees towards which the user is assigned to provide feedback on their performance evaluation
 * Provide feedback on the performance evaluation of other employees.
 
-### _Assumptions Made_ ###
+### __Assumptions Made__ ###
 It is assumed that the administrator is the only user who is having complete control of what is provided into the system. Only the administrator can add or view the performance evaluation for all the employees. An employee cannot view his/her own performance evaluation results. He/She can only view the performance evaluation results of other employees and provide feedback towards that, if the administrator has assigned the employee to do so.
 
 This way, this system can enable the administrator to understand if the employees of the company agrees with the performance evaluation provided by the administrator towards their colleagues and can take corrective actions.
 
-### _Technologies Used_ ###
+### __Technologies Used__ ###
 * Angular Version 8.2.14
 * Node Version 12.13.1
 * Spring Boot Version 2.3.1
@@ -56,24 +56,24 @@ This way, this system can enable the administrator to understand if the employee
 * Java Version 1.8
 
 
-### _APIs Used_ ###
+### __APIs Used__ ###
 * POST
 * GET
 * DELETE
 * PUT
 
 
-### _Dependencies Used_  ###
+### __Dependencies Used__  ###
 * [Spring Boot Starter Web](https://docs.spring.io/spring-boot/docs/2.2.2.RELEASE/reference/htmlsingle/#using-boot-starter)
 * [Spring Data JPA](https://spring.io/guides/gs/accessing-data-jpa/)
 * [Oracle Application Express](https://apex.oracle.com/en/learn/getting-started/)
 * [H2 database](https://spring.io/guides/gs/accessing-data-jpa/)
 
 
-### _Possible Improvements_ ###
+### __Possible Improvements__ ###
 
 The current design does not qualify to be of a production grade quality. Logging is not employed for any kind of detailed debugging. The design does not keep track of the user session and also have not implemented any spring security.
 
 
-### _Author_ ### 
+### __Author__ ### 
 Rubina Brijith Antony
